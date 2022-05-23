@@ -1,8 +1,9 @@
 @import url("/resources/css/header.css");
 @import url("/resources/css/sidebar.css");
 
-@import url("/resources/css/pages/skillset.css");
+@import url("/resources/css/pages/experience.css");
 @import url("/resources/css/pages/home.css");
+@import url("/resources/css/pages/skillset.css");
 
 @import url("/resources/css/components/progess\ bar.css");
 
