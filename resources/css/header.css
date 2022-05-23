@@ -15,9 +15,20 @@ header {
 }
 
 header .title {
-    color: #f8f8ff;
+    display: flex;
+    flex-direction: row;
     padding-left: 1em;
+}
+
+header .title img {
+    height: 30px;
+    max-height: 30px;
+}
+
+header .title p {
+    color: #f8f8ff;
     margin: 0;
+    padding-left: 0.5em;
     font-size: 26px;
 }
 
