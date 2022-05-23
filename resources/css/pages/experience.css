@@ -6,6 +6,14 @@
     justify-content: center;
 }
 
+.experience .cat {
+    width: 80%;
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 24;
+    color: #f8f8ff;
+}
+
 .experience .container {
     width: 80%;
     min-width: 550px;
@@ -19,8 +27,10 @@
 
 .experience .container .logo {
     max-height: 200px;
+    min-width: 200px;
     max-width: 200px;
 
+    margin-right: 0.5em;
     float: left;
 }
 
@@ -32,6 +42,12 @@
 }
 
 .experience .container .title .duration {
+    color: #b9bbbe;
+}
+
+.experience .container .place {
+    margin: 0;
+    font-size: 20;
     color: #b9bbbe;
 }
 
