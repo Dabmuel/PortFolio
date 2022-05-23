@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #202225;
+
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+}
+
+header .title {
+    color: #f8f8ff;
+    padding-left: 1em;
+    margin: 0;
+    font-size: 26px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    color: #b9bbbe;
+    margin: 0, 0.5em;
+    padding: 0.5em;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+header nav a.selected {
+    color: #faa81a;
+}
+
+header nav a:hover {
+    background-color: #2f3136;
+}
+
+header nav a.selected:hover {
+    background-color: #49443c;
+}

@@ -1,0 +1,19 @@
+.home {
+    padding: 1em;
+}
+
+.home p {
+    color: #b9bbbe;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.home p.intro {
+    font-size: 24px;
+}
+
+.home img {
+    float: right;
+    height: 170px;
+}

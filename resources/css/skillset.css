@@ -1,0 +1,23 @@
+.skillset {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillset .container {
+    width: 50%;
+    min-width: 300px;
+    box-sizing: border-box;
+    padding: 1em;
+
+    border-radius: 5px;
+    border: 1px solid #b9bbbe;
+}
+
+.skillset .container .title {
+    margin: 0;
+    padding-bottom: 0.4em;
+    font-size: 24px;
+    color: #f8f8ff;
+}
