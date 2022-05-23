@@ -1,5 +1,9 @@
 .home {
     padding: 1em;
+    margin: 2em;
+
+    border-radius: 5px;
+    border: 1px solid #b9bbbe;
 }
 
 .home p {
@@ -16,4 +20,7 @@
 .home img {
     float: right;
     height: 170px;
+
+    border: 2px solid #202225;
+    border-radius: 5px;
 }
