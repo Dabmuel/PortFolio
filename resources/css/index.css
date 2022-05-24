@@ -1,14 +1,14 @@
-@import url("/resources/css/footer.css");
-@import url("/resources/css/header.css");
-@import url("/resources/css/sidebar.css");
+@import url("./footer.css");
+@import url("./header.css");
+@import url("./sidebar.css");
 
-@import url("/resources/css/pages/credential.css");
-@import url("/resources/css/pages/experience.css");
-@import url("/resources/css/pages/home.css");
-@import url("/resources/css/pages/personal.css");
-@import url("/resources/css/pages/skillset.css");
+@import url("./pages/credential.css");
+@import url("./pages/experience.css");
+@import url("./pages/home.css");
+@import url("./pages/personal.css");
+@import url("./pages/skillset.css");
 
-@import url("/resources/css/components/progess\ bar.css");
+@import url("./components/progess\ bar.css");
 
 html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
