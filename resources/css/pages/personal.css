@@ -1,4 +1,4 @@
-.skillset {
+.personal {
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,15 @@
     justify-content: center;
 }
 
-.skillset .container {
+.personal .cat {
+    width: 80%;
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 24;
+    color: #f8f8ff;
+}
+
+.personal .container {
     width: 80%;
     min-width: 550px;
     box-sizing: border-box;
@@ -17,14 +25,31 @@
     border: 1px solid #b9bbbe;
 }
 
-.skillset .container .title {
+.personal .container .title {
     margin: 0;
     padding-bottom: 0.4em;
     font-size: 24px;
+    text-decoration: none;
     color: #f8f8ff;
 }
 
-.skillset .container .subtitle {
+.personal .container .title a {
+    text-decoration: none;
+    color: #f8f8ff;
+}
+
+.personal .container .title a:hover {
+    text-decoration: underline;
+}
+
+.personal .container .date {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font-size: 20;
+    color: #b9bbbe;
+}
+
+.personal .container .subtitle {
     margin: 0;
     padding-top: 1em;
     padding-bottom: 0.4em;
@@ -32,7 +57,7 @@
     color: #b9bbbe;
 }
 
-.skillset .container .description {
+.personal .container .description {
     margin: 0;
     padding-bottom: 1em;
     font-size: 20px;
